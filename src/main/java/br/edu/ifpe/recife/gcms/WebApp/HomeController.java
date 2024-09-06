@@ -23,7 +23,7 @@ public class HomeController {
 
     @RequestMapping("/hotfix")
     public @ResponseBody String greetingHotfix() {
-        return "Hello, Hotfix!";
+        return "Hello, Hotfix(Gabriel)!";
     }
 
     @RequestMapping("/albert")
@@ -45,10 +45,15 @@ public class HomeController {
     public @ResponseBody String greetingJoaoGouveia() {
         return "Hello, João Gouveia!";
     }
-    
+
     @RequestMapping("/branch/joao-gouveia")
     public @ResponseBody String greetingFromBranchJoaoGouveia() {
         return "Hello from branch joao-gouveia!";
+    }
+    
+    @RequestMapping("/fork/joao-gouveia")
+    public @ResponseBody String greetingForkJoao() {
+        return "Hello from Joao's fork!";
     }
 
     @RequestMapping("/rinaldohub")
@@ -60,6 +65,17 @@ public class HomeController {
     public @ResponseBody String greetingDiogo() {
         return "Hello, Diogo!";
     }
+    
+    @RequestMapping("/DiogoB")
+    public @ResponseBody String greetingDiogoBranch() {
+        return "Hello from Diogo's Branch!";
+    }
+    
+    @RequestMapping("/Diogof")
+    public @ResponseBody String greetingDiogoForck() {
+        return "Hello from Diogo's Forck!";
+    }
+
 
     @RequestMapping("/richardson")
     public @ResponseBody String greetingRichardson() {
@@ -69,6 +85,11 @@ public class HomeController {
     @RequestMapping("/branch/richardson-silva")
     public @ResponseBody String greetingFromBranchRicardson() {
         return "Hello from branch richardson-silva!";
+    }
+
+    @RequestMapping("/fork/richardson-silva")
+    public @ResponseBody String greetingForkRichardson() {
+        return "Hello from Richardson Silva's fork!";
     }
 
     @RequestMapping("/fernando")
@@ -110,30 +131,105 @@ public class HomeController {
     public @ResponseBody String greetingAugusto() {
         return "Hello, Augusto!";
     }
+    
+    @RequestMapping("/branch/augusto-allan")
+    public @ResponseBody String greetingBranchAugustoAllan() {
+        return "Hello from branch augusto-allan!";
+    }
+    
+    @RequestMapping("/fork/augusto-allan")
+    public @ResponseBody String greetingForkAugustoAllan() {
+        return "Hello from fork augusto-allan!";
+    }
 
     @RequestMapping("/julia")
     public @ResponseBody String greetingJulia() {
         return "Hello, Julia!";
     }
 
+    @RequestMapping("/branch/julia")
+    public @ResponseBody String greetingJuliaBranch() {
+        return "Hello, from branch julia-didra!";
+    }
+
+    @RequestMapping("/fork/julia")
+    public @ResponseBody String greetingJuliaFork() {
+        return "Hello, julia-didra fork's!";
+    }
+
     @RequestMapping("/joaoTorpe")
     public @ResponseBody String greetingJoaoTorpe() {
         return "Hello, joaoTorpe!";
     }
-    
+
     @RequestMapping("/aurianlira")
     public @ResponseBody String greetingAurianLira() {
         return "Hello, Aurian Lira!";
     }
-    
+
     @RequestMapping("Mateus")
     public @ResponseBody String greetingMateus() {
-    return "Hello, Mateus!";
+        return "Hello, Mateus!";
     }
     
+    @RequestMapping("/branch/aurianmoura")
+    public @ResponseBody String greetingFromBranchAurian() {
+        return "Hello from branch aurianmoura"; 
+
+    }
+
+
     @RequestMapping("/raul")
     public @ResponseBody String greetingRaul() {
-    return "Hello, Raul!";
+        return "Hello, Raul!";
+    }
+
+    @RequestMapping("/gustavo")
+    public @ResponseBody String greetingGustavo() {
+        return "Hello, Gustavo!";
+    }
+
+    @RequestMapping("/branch/gustavo")
+    public @ResponseBody String greetingBranchGustavo() {
+        return "Hello, Branch Gustavo!";
+    }
+
+    @RequestMapping("/fork/gustavo")
+    public @ResponseBody String greetingForkGustavo() {
+        return "Hello, Fork Gustavo!";
+    }
+    @RequestMapping("/branch/raul")
+    public @ResponseBody String greetingBranchRaul() {
+        return "Hello, Branch Raul!";
+    }
+    @RequestMapping("/fork/raul")
+    public @ResponseBody String greetingForkRaul() {
+        return "Hello, Fork Raul!";
+    }
+
+    @RequestMapping("/fork/aurianlira")
+    public @ResponseBody String greetingForkAurianFork() {
+        return "Hello from Aurian Lira's fork!";
+    }
+
+    @RequestMapping("/fork/joaoTorpe")
+    public @ResponseBody String greetingForkJoaoTorpe() {
+        return "Hello, Fork joaoTorpe!";
+    }
+
+    @RequestMapping("/branch/joaoTorpe")
+    public @ResponseBody String greetingBranchJoaoTorpe() {
+        return "Hello, Branch joaoTorpe!";
+    }
+    
+    @RequestMapping("/Gabriel")
+    public @ResponseBody String greetingGabriel() {
+    	return "Hello, Gabriel!";
+    }
+
+    @RequestMapping("/branch/gabriel")
+    public @ResponseBody String greetingBranchGabriel() {
+    	return "Hello, Branch Gabriel!";
     }
 
 }
